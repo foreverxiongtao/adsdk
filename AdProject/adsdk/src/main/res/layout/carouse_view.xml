@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CirclePageIndicator="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ad_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_carouse_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <com.mobile.adsdk.widget.banner.InfiniteViewPager
+        android:id="@+id/ivp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <com.mobile.adsdk.widget.banner.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_close_icon"
+        android:id="@+id/iv_banner_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+</RelativeLayout>

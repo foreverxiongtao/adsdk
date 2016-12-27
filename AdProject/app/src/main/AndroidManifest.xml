@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.azkf_xt.adproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="adsdk_id"
+            android:value="6bq3bpop" />
+        <!--开屏广告-->
+        <activity android:name=".SplashAdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Banner广告-->
+        <activity android:name=".BannerAdActivity" />
+        <!--功能列表-->
+        <activity android:name=".FunctionListActivity" />
+        <!--插屏广告-->
+        <activity android:name=".InterstitialAdtivity" />
+        <!--信息流listview-->
+        <activity android:name=".NativeListActivity" />
+    </application>
+
+</manifest>

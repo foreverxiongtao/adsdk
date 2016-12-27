@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--CarouseButton-->
+    <declare-styleable name="customButton">
+        <attr name="normalSolid" format="color" />
+        <attr name="pressedSolid" format="color" />
+        <attr name="stroke" format="color" />
+        <attr name="normalStroke" format="color" />
+        <attr name="pressedStroke" format="color" />
+        <attr name="roundButtonRadius" format="dimension" />
+        <attr name="roundButtonLeftTopRadius" format="dimension" />
+        <attr name="roundButtonLeftBottomRadius" format="dimension" />
+        <attr name="roundButtonRightTopRadius" format="dimension" />
+        <attr name="roundButtonRightBottomRadius" format="dimension" />
+        <attr name="normalDrawable" format="reference" />
+        <attr name="pressedDrawable" format="reference" />
+        <attr name="isSelected" format="boolean" />
+        <attr name="normalTextColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="strokWidth" format="dimension" />
+    </declare-styleable>
+
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="tl_divider_color" format="color" />
+    <attr name="tl_divider_padding" format="dimension" />
+    <attr name="tl_divider_width" format="dimension" />
+    <attr name="tl_indicator_anim_duration" format="integer" />
+    <attr name="tl_indicator_anim_enable" format="boolean" />
+    <attr name="tl_indicator_bounce_enable" format="boolean" />
+    <attr name="tl_indicator_color" format="color" />
+    <attr name="tl_indicator_corner_radius" format="dimension" />
+    <attr name="tl_indicator_gravity" format="enum">
+        <enum name="TOP" value="48" />
+        <enum name="BOTTOM" value="80" />
+    </attr>
+    <attr name="tl_indicator_height" format="dimension" />
+    <attr name="tl_indicator_margin_bottom" format="dimension" />
+    <attr name="tl_indicator_margin_left" format="dimension" />
+    <attr name="tl_indicator_margin_right" format="dimension" />
+    <attr name="tl_indicator_margin_top" format="dimension" />
+    <attr name="tl_indicator_style" format="enum">
+        <enum name="NORMAL" value="0" />
+        <enum name="TRIANGLE" value="1" />
+        <enum name="BLOCK" value="2" />
+    </attr>
+    <attr name="tl_indicator_width" format="dimension" />
+    <attr name="tl_indicator_width_equal_title" format="boolean" />
+    <attr name="tl_tab_padding" format="dimension" />
+    <attr name="tl_tab_space_equal" format="boolean" />
+    <attr name="tl_tab_width" format="dimension" />
+    <attr name="tl_textAllCaps" format="boolean" />
+    <attr name="tl_textBold" format="boolean" />
+    <attr name="tl_textSelectColor" format="color" />
+    <attr name="tl_textUnselectColor" format="color" />
+    <attr name="tl_textsize" format="dimension" />
+    <attr name="tl_underline_color" format="color" />
+    <attr name="tl_underline_gravity" format="enum">
+        <enum name="TOP" value="48" />
+        <enum name="BOTTOM" value="80" />
+    </attr>
+    <attr name="tl_underline_height" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="base_normal">#22ffb5</color>
+    <color name="bg_gray">#f0f0f2</color>
+    <color name="deep_transparent">#b0000000</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="gray_4">#eaeaea</color>
+    <color name="no_color">#00FFFFFF</color>
+    <color name="price_text_black">#232a2e</color>
+    <declare-styleable name="AutoLayout_Layout">
+        <attr name="layout_auto_basewidth">
+            <flag name="width" value="1" />
+            <flag name="height" value="2" />
+            <flag name="textSize" value="4" />
+            <flag name="padding" value="8" />
+            <flag name="margin" value="16" />
+            <flag name="marginLeft" value="32" />
+            <flag name="marginTop" value="64" />
+            <flag name="marginRight" value="128" />
+            <flag name="marginBottom" value="256" />
+            <flag name="paddingLeft" value="512" />
+            <flag name="paddingTop" value="1024" />
+            <flag name="paddingRight" value="2048" />
+            <flag name="paddingBottom" value="4096" />
+        </attr>
+        <attr name="layout_auto_baseheight">
+            <flag name="width" value="1" />
+            <flag name="height" value="2" />
+            <flag name="textSize" value="4" />
+            <flag name="padding" value="8" />
+            <flag name="margin" value="16" />
+            <flag name="marginLeft" value="32" />
+            <flag name="marginTop" value="64" />
+            <flag name="marginRight" value="128" />
+            <flag name="marginBottom" value="256" />
+            <flag name="paddingLeft" value="512" />
+            <flag name="paddingTop" value="1024" />
+            <flag name="paddingRight" value="2048" />
+            <flag name="paddingBottom" value="4096" />
+            <flag name="minWidth" value="8192" />
+            <flag name="maxWidth" value="16384" />
+            <flag name="minHeight" value="32768" />
+            <flag name="maxHeight" value="65536" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+        <attr name="centered" />
+        <attr name="fillColor" format="color" />
+        <attr name="pageColor" format="color" />
+        <attr name="android:orientation" />
+        <attr name="radius" format="dimension" />
+        <attr name="snap" format="boolean" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="LinePageIndicator">
+        <attr name="centered" />
+        <attr name="unselectedColor" />
+        <attr name="selectedColor" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="strokeWidth" />
+        <attr name="gapWidth" format="dimension" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="MetroLayout">
+        <attr name="metro_divider" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TitlePageIndicator">
+        <attr name="clipPadding" format="dimension" />
+        <attr name="footerColor" format="color" />
+        <attr name="footerLineHeight" format="dimension" />
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0" />
+            <enum name="triangle" value="1" />
+            <enum name="underline" value="2" />
+        </attr>
+        <attr name="footerIndicatorHeight" format="dimension" />
+        <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+        <attr name="footerPadding" format="dimension" />
+        <attr name="linePosition">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+        <attr name="selectedColor" />
+        <attr name="selectedBold" format="boolean" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="titlePadding" format="dimension" />
+        <attr name="topPadding" format="dimension" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator">
+        <attr name="fades" format="boolean" />
+        <attr name="fadeDelay" format="integer" />
+        <attr name="fadeLength" format="integer" />
+        <attr name="selectedColor" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="vertical_view_group_double_height">70dp</dimen>
+    <dimen name="vertical_view_group_height">40dp</dimen>
+    <dimen name="vertical_view_group_width">300dp</dimen>
+    <item name="id_tag_autolayout_margin" type="id" />
+    <item name="id_tag_autolayout_padding" type="id" />
+    <item name="id_tag_autolayout_size" type="id" />
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+</resources>
